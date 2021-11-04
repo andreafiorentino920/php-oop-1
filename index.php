@@ -1,6 +1,6 @@
 
 <?php
-    require __DIR__ . "./classes/Movie.php";
+    __DIR__ . "/classes/Movie.php";
     $padrino = new Movie("Il Padrino","Francis Ford Coppola","USA","1972","Drammatico", "Marlon Brando, Al Pacino, James Caan");
     $batman = new Movie("Batman Begins","Christopher Nolan","USA","2005","Azione", "Christian Bale, Michael Caine, Morgan Freeman");
     $pulp = new Movie("Pulp Fiction","Quentin Tarantino ","USA","1994","Azione", "John Travolta, Samuel L. Jackson, Uma Thurman");
